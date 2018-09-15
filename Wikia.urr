@@ -1,0 +1,14 @@
+! uMatrix: Ruleset recipes 1.0
+! Title: Globally whitelist WikiMedia-Project websites
+! Maintainer: https://github.com/TriMoon-Inc/uMatrix-Ruleset-recipes
+ Allow Wikia wikis to function
+    wikia.com *
+        ! wikis are displayed as text-only without these
+        _ wikia.nocookie.net *
+        _ wikia.nocookie.net script
+        ! Dynamic fonts
+        _ fonts.gstatic.com other
+        ! Qualaroo for wikia.com
+        _ s3.amazonaws.com script
+        ! Had this in past, no idea if still needed.
+        ! _ speed.nocookie.net xhr allow
