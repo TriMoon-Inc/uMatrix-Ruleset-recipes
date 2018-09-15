@@ -1,5 +1,5 @@
 ! uMatrix: Ruleset recipes 1.0
-! Title: Globally whitelist WikiMedia-Project websites
+! Title: Allow Wikia wikis to function
 ! Maintainer: https://github.com/TriMoon-Inc/uMatrix-Ruleset-recipes
  Allow Wikia wikis to function
     wikia.com *
