@@ -1,0 +1,26 @@
+! uMatrix: Ruleset recipes 1.0
+! Title: Globally whitelist WikiMedia-Project websites
+! Maintainer: https://github.com/TriMoon-Inc/uMatrix-Ruleset-recipes
+Globally whitelist WikiMedia-Project websites
+	* mediawiki.org
+	* wikibooks.org
+	* wikidata.org
+	* wikimedia.org
+	* wikinews.org
+	* wikipedia.org
+	* wikiquote.org
+	* wikisource.org
+	* wikiversity.org
+	* wikivoyage.org
+	* wiktionary.org
+		* mediawiki.org *
+		* wikibooks.org *
+		* wikidata.org *
+		* wikimedia.org *
+		* wikinews.org *
+		* wikipedia.org *
+		* wikiquote.org *
+		* wikisource.org *
+		* wikiversity.org *
+		* wikivoyage.org *
+		* wiktionary.org *
